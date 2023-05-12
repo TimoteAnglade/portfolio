@@ -1,26 +1,31 @@
+:root {
+      --cs-wid: 250px;
+    }
 html,
-    body {
-      height: 100%;
-    }
-    
-    .sidebar {
-      position: fixed;
-      top: 68px;
-      bottom: 0;
-      left: 0;
-      width: 250px; /* Adjust the width as needed */
-      background-color: #f8f9fa; /* Custom sidebar background color */
-    }
-    
-    .content {
-      margin-left: 250px; /* Adjust the margin to match the sidebar width */
-      padding: 20px; /* Optional: Add padding to the content area */
-    }
+body {
+  height: 100%;
+}
 
-    .sidebar .nav-link {
-      color: #261f13; /* Set the text color to pink */
-    }
-    .image-frame {
-      border: 2px solid #000; /* Customize the border color and thickness */
-      padding: 5px; /* Optional: Add padding to create space between the image and the border */
-    }
+.sidebar {
+  position: fixed;
+  top: 68px;
+  bottom: 0;
+  left: 0;
+  width: 250px; /* Adjust the width as needed */
+  background-color: #f8f9fa; /* Custom sidebar background color */
+}
+
+.content {
+  margin-top: 68px;
+  margin-left: 250px;
+  flex: 1;
+}
+
+.sidebar .nav-link {
+  color: #261f13; /* Set the text color to pink */
+}
+
+.image-frame {
+  border: 1px solid #a967d0; /* Customize the border color and thickness */
+  box-shadow: 2px 2px 2px 2px #643d7b;
+}

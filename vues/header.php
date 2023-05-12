@@ -10,15 +10,15 @@
 <style>
     /* Custom CSS */
 </style>
-<body>
+<body class="letout">
 
   <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/custom.js"></script>
 
 
 
   
   <!-- Your website content goes here -->
-
   <div class="sidebar bg-secondary" style="width:auto;">
     <!-- Sidebar content goes here -->
     <ul class="nav flex-column">
@@ -34,9 +34,9 @@
     </ul>
   </div>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary bandeau">
     <div class="container">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="./">
       <img src="img/image.png" style="width:2em;">Anglade Timoté
     </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,7 +45,7 @@
       <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href="?">Acceuil</a>
+                <a class="nav-link" href="./">Acceuil</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="?ac=projets">Projets</a>

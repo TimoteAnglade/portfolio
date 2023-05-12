@@ -2,8 +2,8 @@
 include("modele/bd.inc.php");
 include("modele/comp.inc.php");
 include('vues/header.php');
-if(isset($_GET['page'])){
-	$page=$_GET['page'];
+if(isset($_GET['ac'])){
+	$page=$_GET['ac'];
 }
 else{
 	$page='';
@@ -20,6 +20,7 @@ switch($page) {
 		break;
 	default :
 		include('vues/acceuil.php');
+		break;
 }
 
 include('vues/footer.php');
